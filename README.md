@@ -1,2 +1,2 @@
 # Meteorify
-ALX software engineering portfolio project
+ALX Capstone project
