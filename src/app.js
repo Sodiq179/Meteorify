@@ -30,10 +30,7 @@ app.get('', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res.render('about', {
-        title: 'About',
-        name: 'Sodiq Babawale'
-    })
+    res.redirect("https://github.com/Sodiq179")
 })
 
 app.get('/help', (req, res) => {
