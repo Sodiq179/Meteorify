@@ -4,7 +4,7 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
+    background-image: url("../img/backgrd.jpg");
     display: flex;
     flex-direction: column;
     min-height: 100vh
@@ -15,8 +15,8 @@ body {
 }
 
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
+    color: black;
+    border-top: 1px solid black;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -26,13 +26,18 @@ header {
     margin-bottom: 48px;
 }
 
+p {
+    color: black;
+}
+
 h1 {
+    color: #000000;
     font-size: 64px;
     margin-bottom: 16px;
 }
 
 header a {
-    color: #888888;
+    color: #000000;
     margin-right: 16px;
     text-decoration: none;
 }
@@ -52,4 +57,8 @@ button {
     background: #888888;
     color: white;
     padding:8px;
+}
+
+.weather-link {
+    padding:0px 20px 20px 0px;
 }
